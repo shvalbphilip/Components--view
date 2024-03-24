@@ -1,0 +1,207 @@
+
+body{
+    display: flex;
+    background-color: #fff;
+    font-family:"Hanken Grotesk";
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+@media only screen and (max-width: 768px){
+    body{
+        min-height:100% ;
+    }
+#Container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    border:transparent;
+    height: 430px;
+    width:800px;
+    background-color: white;
+
+}
+.Result{
+ 
+}
+}
+p{
+    position: relative;
+    display:flex;
+    font-size: 18px;
+    text-align: center;
+    padding-left:70px ;
+    padding-right:70px ;
+    bottom: 20px;
+    color: hsla(0, 0%, 85%,0.7)
+}
+.text2{
+    display: flex;
+    position: relative;
+    right:10px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    width: 80px;
+
+}
+#Container-flex{
+    display: flex;
+    border: transparent;
+    height: 430px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(188, 188, 188);
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.Result{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: hsla(252, 100%, 67%, 1);
+
+background: linear-gradient(270deg, hsla(252, 100%, 67%, 1) 0%, hsla(241, 81%, 54%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(252, 100%, 67%, 1) 0%, hsla(241, 81%, 54%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(252, 100%, 67%, 1) 0%, hsla(241, 81%, 54%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7857FF", endColorstr="#2E2BE9", GradientType=1 );
+    height: 100%;
+    flex: 50%;;
+}
+*.components{
+    display:flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    flex-direction:column;
+    flex: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.C-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 170px;
+        height: 170px;
+        border-radius: 85px;
+        background: hsla(256, 72%, 46%, 1);
+
+background: linear-gradient(270deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4E21CA", endColorstr="#2421CA", GradientType=1 );
+}
+h2{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.Count{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    font-size: 16px;
+    justify-content: center;
+    color: hsla(0, 0%, 85%,0.5);
+}
+.IC{
+    width:fit-content;
+    height:fit-content;
+}
+.title{
+    font-weight:600;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    padding-left: 40px;
+}
+.Text1{
+    font-size: 18px;
+    color: hsla(0, 0%, 85%,0.8);
+
+}
+.C-container>div{
+    height:45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Reaction{
+color:hsl(0, 100%, 67%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: hsla(0, 100%, 67%,0.1);
+}
+.Memory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(39, 100%, 56%,0.1) ;
+    color: hsl(39, 100%, 56%);
+}
+.Verbal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(166, 100%, 37%,0.1);
+    color: hsl(166, 100%, 37%);
+}
+.Visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(234, 85%, 45%,0.1) ;
+    color: hsl(234, 85%, 45%);
+}
+.button {
+    background-color:hsl(224, 30%, 27%);
+    border: none;
+    color: white;
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.imgcenter{
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    top:3px
+}
+h4{
+    color: black;
+    font-weight: 600;
+}
+.BW{
+    color:hsla(0, 0%, 50%,1);
+    padding-left:3px;
+}

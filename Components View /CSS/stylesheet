@@ -1,0 +1,40 @@
+
+body{
+    background-color: white;
+}
+#Fatherdiv{
+    border-radius: 20px;
+    display: flex;
+    box-sizing: border-box;
+   align-self: center;
+    height: 400px;
+    width:600px;
+    background-color: white;
+}
+.Result{
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100%;
+    width: 400px;
+    flex: 50%;;
+}
+
+.components{
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 50%;
+    background-color: blue;
+    height: 100%;
+}
+.circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background: red;
+      
+}
